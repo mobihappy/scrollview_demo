@@ -12,6 +12,11 @@
 		DBE6783F2328ACBA00B13B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE6783D2328ACBA00B13B52 /* Main.storyboard */; };
 		DBE678412328ACBB00B13B52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE678402328ACBB00B13B52 /* Assets.xcassets */; };
 		DBE678442328ACBB00B13B52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE678422328ACBB00B13B52 /* LaunchScreen.storyboard */; };
+		DBE6784C2328DB2000B13B52 /* zombies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE6784B2328DB2000B13B52 /* zombies.jpg */; };
+		DBE6784E2328FA4D00B13B52 /* Vampire Toucan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE6784D2328FA4D00B13B52 /* Vampire Toucan.jpg */; };
+		DBEB51962329EBC0008BA611 /* toucan_skeleton.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEB51932329EBC0008BA611 /* toucan_skeleton.png */; };
+		DBEB51972329EBC0008BA611 /* toucan_musculature.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEB51942329EBC0008BA611 /* toucan_musculature.png */; };
+		DBEB51982329EBC0008BA611 /* toucan_surface.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEB51952329EBC0008BA611 /* toucan_surface.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		DBE678402328ACBB00B13B52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBE678432328ACBB00B13B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBE678452328ACBB00B13B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE6784B2328DB2000B13B52 /* zombies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zombies.jpg; sourceTree = "<group>"; };
+		DBE6784D2328FA4D00B13B52 /* Vampire Toucan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vampire Toucan.jpg"; sourceTree = "<group>"; };
+		DBEB51932329EBC0008BA611 /* toucan_skeleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toucan_skeleton.png; sourceTree = "<group>"; };
+		DBEB51942329EBC0008BA611 /* toucan_musculature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toucan_musculature.png; sourceTree = "<group>"; };
+		DBEB51952329EBC0008BA611 /* toucan_surface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toucan_surface.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				DBE678402328ACBB00B13B52 /* Assets.xcassets */,
 				DBE678422328ACBB00B13B52 /* LaunchScreen.storyboard */,
 				DBE678452328ACBB00B13B52 /* Info.plist */,
+				DBE6784B2328DB2000B13B52 /* zombies.jpg */,
+				DBE6784D2328FA4D00B13B52 /* Vampire Toucan.jpg */,
+				DBEB51952329EBC0008BA611 /* toucan_surface.png */,
+				DBEB51932329EBC0008BA611 /* toucan_skeleton.png */,
+				DBEB51942329EBC0008BA611 /* toucan_musculature.png */,
 			);
 			path = ScrollViewDemo;
 			sourceTree = "<group>";
@@ -123,8 +138,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBE678442328ACBB00B13B52 /* LaunchScreen.storyboard in Resources */,
+				DBE6784E2328FA4D00B13B52 /* Vampire Toucan.jpg in Resources */,
+				DBEB51962329EBC0008BA611 /* toucan_skeleton.png in Resources */,
+				DBEB51972329EBC0008BA611 /* toucan_musculature.png in Resources */,
 				DBE678412328ACBB00B13B52 /* Assets.xcassets in Resources */,
 				DBE6783F2328ACBA00B13B52 /* Main.storyboard in Resources */,
+				DBE6784C2328DB2000B13B52 /* zombies.jpg in Resources */,
+				DBEB51982329EBC0008BA611 /* toucan_surface.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BBXTXXADT9;
 				INFOPLIST_FILE = ScrollViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BBXTXXADT9;
 				INFOPLIST_FILE = ScrollViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
